@@ -1,0 +1,20 @@
+@page "/License_App"
+@inject IWebHostEnvironment Env
+
+
+
+<PageTitle>License_App</PageTitle>
+
+<h1>license</h1>
+
+<pre>@licenseText</pre>
+
+@code {
+    private string? licenseText;
+
+    protected override void OnInitialized()
+    {
+        var path = Path.Combine(Env.ContentRootPath, "LICENSE");
+        licenseText = File.ReadAllText(path);
+    }
+}
