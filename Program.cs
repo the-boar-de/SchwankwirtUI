@@ -1,6 +1,14 @@
 using SchwankwirtUI.Components;
 
+var Url = "http://localhost:5000/";
+
 var builder = WebApplication.CreateBuilder(args);
+
+
+// register server to UI
+builder.Services.AddHttpClient<ApiService>(c => c.BaseAddress = new Uri(Url) );
+
+//builder.Services.AddHttpClient<ApiService>(Url);
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
@@ -25,3 +33,4 @@ app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();
 
 app.Run();
+

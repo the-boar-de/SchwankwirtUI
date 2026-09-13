@@ -1,0 +1,28 @@
+@page "/setting"
+@rendermode InteractiveServer
+@inject ApiService Api
+
+
+<PageTitle> Item </PageTitle>
+
+<h1> Setting Test</h1>
+
+<p role="status">Message is: @message </p>
+
+<button class="btn btn-primary" @onclick ="Button_Click">Click me</button>
+
+
+
+@code {
+string message = "lädt ....";
+
+
+
+protected async Task Button_Click(){
+  message = await Api.GetItemAsync();
+  }
+
+   // protected async Task Print()
+   // => Console.WriteLine("Buttonworks"); //await Api.GetItemAsync();
+
+}
