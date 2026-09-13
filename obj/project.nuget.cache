@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "C6GnI21KIY4=",
+  "dgSpecHash": "k0blebFbZMI=",
   "success": true,
-  "projectFilePath": "/home/chris/Projekte/Schankwirt/SchwankwirtUI/SchwankwirtUI.csproj",
+  "projectFilePath": "/home/chris/Files/Projekte/Schankwirt/SchwankwirtUI/SchwankwirtUI.csproj",
   "expectedPackageFiles": [
+    "/home/chris/.nuget/packages/blazor.bootstrap/4.0.0/blazor.bootstrap.4.0.0.nupkg.sha512",
+    "/home/chris/.nuget/packages/bootstrap/5.3.8/bootstrap.5.3.8.nupkg.sha512",
     "/home/chris/.nuget/packages/microsoft.aspnet.razor/3.3.0/microsoft.aspnet.razor.3.3.0.nupkg.sha512",
     "/home/chris/.nuget/packages/microsoft.aspnet.webapi.client/6.0.0/microsoft.aspnet.webapi.client.6.0.0.nupkg.sha512",
     "/home/chris/.nuget/packages/microsoft.aspnetcore.app.internal.assets/10.0.11/microsoft.aspnetcore.app.internal.assets.10.0.11.nupkg.sha512",
@@ -29,9 +31,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'Microsoft.AspNet.Razor 3.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net10.0'. This package may not be fully compatible with your project.",
-      "projectPath": "/home/chris/Projekte/Schankwirt/SchwankwirtUI/SchwankwirtUI.csproj",
+      "projectPath": "/home/chris/Files/Projekte/Schankwirt/SchwankwirtUI/SchwankwirtUI.csproj",
       "warningLevel": 1,
-      "filePath": "/home/chris/Projekte/Schankwirt/SchwankwirtUI/SchwankwirtUI.csproj",
+      "filePath": "/home/chris/Files/Projekte/Schankwirt/SchwankwirtUI/SchwankwirtUI.csproj",
       "libraryId": "Microsoft.AspNet.Razor",
       "targetGraphs": [
         "net10.0"
